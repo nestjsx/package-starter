@@ -1,0 +1,25 @@
+{
+  "name": "@nestjsx/package-starter",
+  "description": "Awesome description",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestjsx/package-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nestjsx/package-starter/issues"
+  },
+  "keywords": [
+    "typescript",
+    "nest",
+    "nestjs",
+    "backend"
+  ],
+  "author": {
+    "name": "Michael Yali",
+    "email": "mihon4ik@gmail.com"
+  }
+}

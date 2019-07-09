@@ -1,0 +1,44 @@
+{
+  "name": "@nestjsx/package-starter",
+  "description": "Package starter for Nestjsx packages",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "prebuild": "npm run build:clean",
+    "build:clean": "npx del './dist/*{.ts,.js,.map}'",
+    "build": "npx tsc -b",
+    "commit": "npx git-cz",
+    "test": "echo \"OK\""
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
+    "validate-commit-msg": {
+      "types": "conventional-commit-types",
+      "helpMessage": "Use \"yarn commit\" instead"
+    }
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.12",
+    "commitizen": "^3.1.1",
+    "coveralls": "^3.0.4",
+    "cz-conventional-changelog": "^2.1.0",
+    "del-cli": "^2.0.0",
+    "husky": "^3.0.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.2",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "author": {
+    "name": "Michael Yali",
+    "email": "mihon4ik@gmail.com"
+  }
+}
